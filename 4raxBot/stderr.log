@@ -1,0 +1,26 @@
+While waiting for ResponseObservation received an error.
+Error: Not in a game
+
+Error in returning observation:
+The main response is of type: 0
+There is no ResponseObservation/message!
+Error string: Not in a game
+
+While waiting for ResponseGameInfo received an error.
+Error: A game has not been started yet
+While waiting for ResponseObservation received an error.
+Error: Not in a game
+
+Error in returning observation:
+The main response is of type: 0
+There is no ResponseObservation/message!
+Error string: Not in a game
+
+While waiting for ResponseData received an error.
+Error: A game has not been started yet
+While waiting for ResponseData received an error.
+Error: A game has not been started yet
+
+Error in returning observation:
+
+Error in returning observation:

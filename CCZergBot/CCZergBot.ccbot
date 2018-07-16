@@ -1,0 +1,71 @@
+{
+    "Bot Info" :
+    {
+        "BotName"                   : "CCZergBot",
+        "Authors"                   : "David Churchill",
+        "PrintInfoOnStart"          : false
+    },
+
+    "Game Info" :
+    {
+        "BotRace"                   : "Zerg",
+        "EnemyRace"                 : "Random",
+        "MapFile"                   : "OdysseyLE.SC2Map"
+    },
+    "SC2API" :
+    {
+        "BotRace"                   : "Zerg",
+        "EnemyDifficulty"           : 8,
+        "EnemyRace"                 : "Zerg",
+        "MapFile"                   : "InterloperLE.SC2Map",
+        "StepSize"                  : 1
+    }, 
+    "Micro" :
+    {
+        "KiteWithRangedUnits"       : false,
+        "ScoutHarassEnemy"          : false,
+        "CombatUnitsForAttack"      : 10
+    },
+    
+    "Macro" :
+    {
+        "WorkersPerRefinery"        : 3,
+        "BuildingSpacing"           : 0,
+        "PylonSpacing"              : 3
+    },
+
+    "Debug" :
+    {
+        "DrawGameInfo"              : true, 
+        "DrawProductionInfo"        : true, 
+        "DrawBaseLocationInfo"      : false,
+        "DrawTileInfo"              : false,
+        "DrawWalkableSectors"       : false,
+        "DrawScoutInfo"             : false,
+        "DrawEnemyUnitInfo"         : false,
+        "DrawResourceInfo"          : false,
+        "DrawUnitTargetInfo"        : false,
+        "DrawLastSeenTileInfo"      : false,
+        "DrawSquadInfo"             : false,
+        "DrawWorkerInfo"            : false,
+        "DrawBuildingInfo"          : false,
+        "DrawReservedBuildingTiles" : false
+    },
+    
+    "Modules" :
+    {
+        "UseAutoObserver"           : false
+    },
+    
+    "SC2API Strategy" :
+    {
+        "Zerg"                      : "Zerg_ZerglingRush",
+        
+        "ScoutHarassEnemy"          : true,
+        
+        "Strategies" :
+        {
+            "Zerg_ZerglingRush"     : { "Race" : "Zerg",    "OpeningBuildOrder" : ["Drone", "Overlord", "Drone", "Drone", "SpawningPool", "Drone", "Drone", "Zergling", "Zergling", "Zergling", "Drone", "Zergling", "Zergling", "Zergling", "Overlord", "Zergling", "Hatchery", "Zergling", "Overlord", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Overlord","Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Overlord", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Overlord", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Overlord", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Overlord", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling", "Zergling"] }
+        }
+    }
+}

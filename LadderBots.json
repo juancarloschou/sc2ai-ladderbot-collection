@@ -1,0 +1,83 @@
+{
+
+	"Bots": {
+		"CryptBot": {
+			"Race": "Protoss",
+			"Type": "BinaryCpp",
+			"RootPath": "Bots/CryptBot/",
+			"FileName": "CryptBot.exe"
+		},
+		"tscmoo": {
+			"Race": "Protoss",
+			"Type": "BinaryCpp",
+			"RootPath": "Bots/tscmoo/",
+			"FileName": "tscmoo.exe"
+		},
+		"pysc2Bot": {
+			"Race": "Terran",
+			"Type": "Python",
+			"RootPath": "Bots/pysc2-ladderbot/",
+			"FileName": "run.py"
+		},
+		"dentosalBot": {
+			"Race": "Random",
+			"Type": "Python",
+			"RootPath": "Bots/python-sc2-ladderbot/",
+			"FileName": "run.py"
+		},
+		"CsharpBot": {
+			"Race": "Terran",
+			"Type": "BinaryCpp",
+			"RootPath": "Bots/SC2-CSharpe-Starterkit",
+			"FileName": "bot.exe"
+		},
+		"5minBot": {
+			"Race": "Terran",
+			"Type": "BinaryCpp",
+			"RootPath": "Bots/5minBot",
+			"FileName": "5minBot.exe"
+		},
+		"4raxBot": {
+			"Race": "Terran",
+			"Type": "CommandCenter",
+			"RootPath": "Bots/4raxBot",
+			"FileName": "4raxBot.ccbot"
+		},
+		"CCZergBot": {
+			"Race": "Zerg",
+			"Type": "CommandCenter",
+			"RootPath": "Bots/CCZergBot",
+			"FileName": "CCZergBot.ccbot"
+		},
+		"HjaxAI": {
+			"Race": "Zerg",
+			"Type": "BinaryCpp",
+			"RootPath": "Bots/HjaxAI",
+			"FileName": "HjaxAI.exe"
+		},
+		"MicroMachine": {
+			"Race": "Terran",
+			"Type": "BinaryCpp",
+			"RootPath": "Bots/MicroMachine",
+			"FileName": "MicroMachine.exe"
+		},
+		"Tyr": {
+			"Race": "Protoss",
+			"Type": "BinaryCpp",
+			"RootPath": "Bots/Tyr",
+			"FileName": "Tyr.exe"
+		},
+		"NaughtyBot": {
+			"Race": "Terran",
+			"Type": "BinaryCpp",
+			"RootPath": "Bots/NaughtyBot",
+			"FileName": "NaughtyBot.exe"
+		},
+		"cannonlover": {
+			"Race": "Protoss",
+			"Type": "Python",
+			"RootPath": "../cannonlover",
+			"FileName": "run.py"
+		}
+	}
+}

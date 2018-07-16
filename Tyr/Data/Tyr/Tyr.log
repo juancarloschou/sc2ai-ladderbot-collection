@@ -1,0 +1,123 @@
+Game started on map: Interloper LE
+Opponent race: Random
+Game started on map: Paladino Terminal LE
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Error occured: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tyr.MapAnalysis.MapAnalyzer.Distances(Point2D pos) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\MapAnalysis\MapAnalyzer.cs:line 186
+   at Tyr.Managers.BaseManager.OnStart(Tyr tyr) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Managers\BaseManager.cs:line 43
+   at Tyr.Tyr.OnStart() in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:line 134
+   at Tyr.Tyr.onFrame(ResponseGameInfo gameInfo, ResponseObservation observation, UInt32 playerId) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:line 73
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Error occured: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tyr.Tyr.onFrame(ResponseGameInfo gameInfo, ResponseObservation observation, UInt32 playerId) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:line 63
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Error occured: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tyr.Tyr.onFrame(ResponseGameInfo gameInfo, ResponseObservation observation, UInt32 playerId) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:line 63
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Error occured: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tyr.Tyr.onFrame(ResponseGameInfo gameInfo, ResponseObservation observation, UInt32 playerId) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:line 63
+Error occured: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tyr.Tyr.onFrame(ResponseGameInfo gameInfo, ResponseObservation observation, UInt32 playerId) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:line 63
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Cactus Valley LE (Void)
+Opponent race: Random
+Game started on map: Interloper LE
+Opponent race: Terran
+Game started on map: Interloper LE
+Opponent race: Terran
+Game started on map: Darkness Sanctuary LE
+Opponent race: Protoss
+Game started on map: Darkness Sanctuary LE
+Opponent race: Protoss
+Error occured: System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Tyr.Managers.UnitManager.OnFrame(Tyr tyr) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Managers\UnitManager.cs:Zeile 30.
+   bei Tyr.Tyr.onFrame(ResponseGameInfo gameInfo, ResponseObservation observation, UInt32 playerId) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:Zeile 78.
+Game started on map: 16-Bit LE
+Opponent race: Protoss
+Error occured: System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Tyr.Managers.UnitManager.OnFrame(Tyr tyr) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Managers\UnitManager.cs:Zeile 30.
+   bei Tyr.Tyr.onFrame(ResponseGameInfo gameInfo, ResponseObservation observation, UInt32 playerId) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:Zeile 78.
+Game started on map: Darkness Sanctuary LE
+Opponent race: Protoss
+Error occured: System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Tyr.Managers.UnitManager.OnFrame(Tyr tyr) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Managers\UnitManager.cs:Zeile 30.
+   bei Tyr.Tyr.onFrame(ResponseGameInfo gameInfo, ResponseObservation observation, UInt32 playerId) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:Zeile 78.
+Game started on map: 16-Bit LE
+Opponent race: Protoss
+Error occured: System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Tyr.Managers.UnitManager.OnFrame(Tyr tyr) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Managers\UnitManager.cs:Zeile 30.
+   bei Tyr.Tyr.onFrame(ResponseGameInfo gameInfo, ResponseObservation observation, UInt32 playerId) in D:\Simon\Code\SC2AI\C#\Tyr\Tyr\Tyr\Tyr.cs:Zeile 78.

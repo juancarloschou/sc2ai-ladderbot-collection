@@ -1,0 +1,439 @@
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebSockets.WebSocketException: Ein interner WebSocket-Fehler ist aufgetreten. Weitere Informationen kînnen Sie, sofern vorhanden, der InnerException entnehmen.  ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__21.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<ReadMessage>d__7.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<SendRequest>d__4.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebSockets.WebSocketException: Ein interner WebSocket-Fehler ist aufgetreten. Weitere Informationen kînnen Sie, sofern vorhanden, der InnerException entnehmen.  ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__21.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<ReadMessage>d__7.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<SendRequest>d__4.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebSockets.WebSocketException: Ein interner WebSocket-Fehler ist aufgetreten. Weitere Informationen kînnen Sie, sofern vorhanden, der InnerException entnehmen.  ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__21.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<ReadMessage>d__7.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<SendRequest>d__4.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.GameConnection.<JoinGameLadder>d__10.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebSockets.WebSocketException: Ein interner WebSocket-Fehler ist aufgetreten. Weitere Informationen kînnen Sie, sofern vorhanden, der InnerException entnehmen.  ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__21.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<ReadMessage>d__7.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<SendRequest>d__4.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebSockets.WebSocketException: Ein interner WebSocket-Fehler ist aufgetreten. Weitere Informationen kînnen Sie, sofern vorhanden, der InnerException entnehmen.  ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__21.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   bei System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<ReadMessage>d__7.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.ProtobufProxy.<SendRequest>d__4.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
+
+Unbehandelte Ausnahme: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei Bot.NaughtyBot.GetUnits(UInt32 unitType, Alliance alliance)
+   bei Bot.NaughtyBot.onFrame(ResponseGameInfo gameInfo, ResponseObservation obs, UInt32 playerId)
+   bei SC2API_CSharp.GameConnection.<Run>d__15.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__17.MoveNext()
+--- Ende der StapelÅberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelîst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   bei SC2API_CSharp.GameConnection.<RunLadder>d__18.MoveNext()
+   --- Ende der internen AusnahmestapelÅberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   bei Bot.Program.Main(String[] args)
